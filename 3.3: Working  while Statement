@@ -1,0 +1,20 @@
+# Define input as name.
+# Define random as the password
+# and the Boolean validator first.
+
+name = input("Enter your name: ")
+pw = input("Enter your password: ")
+password = "Pas$Word"
+
+# Initiate while loop
+# Ask for user input
+# If validation fails 
+# return an error
+
+if pw == password:
+    print("Welcome back, {}" .format(name))
+while pw != password:
+    print("Incorrect password, try again... ")
+    pw = input("Enter your password: ")
+if pw == password:
+    print("Welcome back, {}" .format(name))
