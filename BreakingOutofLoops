@@ -1,0 +1,10 @@
+# Write a for loop with range function for even numbers
+for num in range(6, 15, 2):
+    a = num
+# Write a for loop with range function for odd numbers.     
+    for i in range(5, 15, 2):
+        b = i
+# Use a variable called calc to calculate the sum of even
+# and odd nubers
+        calc = a + b
+        print(a, '+', b, '=', calc)
