@@ -1,0 +1,15 @@
+# Scenario: youu want to write a python
+# script that takes a string and counts the
+# occurrences of a specified
+# word in a given excerpt.
+
+
+# prompt user to enter Sentence and
+# word to look for in sentence
+
+a = str(input('Sentence: '))
+b = str(input('Word to look for in sentence: '))
+c = a.lower()
+d = c.count(b)
+
+print('There are {} occurrences of "\'{}\'" in the sentence.' .format(d, b))
