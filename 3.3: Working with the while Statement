@@ -1,0 +1,23 @@
+# Declare varialbles
+
+current = 1
+end = 10
+
+
+# Condition of while statement 
+# is the current number is less
+# than or equal to the end number.
+
+# For every current number, print it out 
+# increment it by 1.
+
+while current <= end:
+    print(current)
+    current += 1
+
+# If condition is not true
+
+else:
+    print('You have reached the end')
+    
+    
