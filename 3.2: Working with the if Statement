@@ -1,0 +1,13 @@
+year = input('Return TRUE or FALSE: Python3 was released in 2008: ')
+
+if year == 'TRUE':
+	print('Correct')
+elif year == 'FALSE':
+	print('Incorrect')
+elif year != 'TRUE':
+    print('Please answer TRUE or FALSE')
+elif year != 'FALSE':
+    print('Please answer TRUE or FALSE')
+
+print('Have a great day!')
+
