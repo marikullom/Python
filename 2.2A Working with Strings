@@ -1,0 +1,15 @@
+# Take a user's input and convert 
+# lower case letters in the string 
+# into upper case letters depending on the user input.
+
+word = input("Word to convert: ")
+count = int(input("How many letters at the end of the word should be converted? "))
+totalLength = len(word)
+startLength = totalLength - count
+start = ""
+end = ""
+start = word[0:startLength]
+end = word[startLength:totalLength]
+end = end.upper()
+word = start + end
+print(word)
